@@ -1,0 +1,43 @@
+name: trivia_360
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  intl: ^0.18.0
+  get: ^4.6.5
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+    - family: Dongle
+      fonts: 
+        - asset: assets/fonts/DongleRegular.ttf
+          weight: 400
+    - family: Roboto Slab
+      fonts: 
+        - asset: assets/fonts/RobotoSlabRegular.ttf
+          weight: 400
+    - family: ABeeZee
+      fonts: 
+        - asset: assets/fonts/ABeeZeeRegular.ttf
+          weight: 400
+    - family: Noto Sans Gujarati
+      fonts: 
+        - asset: assets/fonts/NotoSansGujaratiBlack.ttf
+          weight: 900
+        - asset: assets/fonts/NotoSansGujaratiRegular.ttf
+          weight: 400
